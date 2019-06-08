@@ -56,9 +56,9 @@ class Login extends Component {
         </div>
         <div className="flex mt3">
           <Mutation
-          mutation={login ? LOGIN_MUTATION : SIGNUP_MUTATION}
-          variables={{ email, password, name }}
-          onCompleted={data => this._confirm(data)}
+            mutation={login ? LOGIN_MUTATION : SIGNUP_MUTATION}
+            variables={{ email, password, name }}
+            onCompleted={data => this._confirm(data)}
           >
             {mutation => (
               <div className="pointer mr2 button" onClick={mutation}>
