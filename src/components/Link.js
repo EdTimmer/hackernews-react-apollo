@@ -22,6 +22,7 @@ const VOTE_MUTATION = gql`
     }
   }
 `
+//comment
 
 class Link extends Component {
   render() {
